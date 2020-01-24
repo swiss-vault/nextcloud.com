@@ -18,8 +18,8 @@
 <div class=" background webinar-background">
     <div class="container">
         <div class="col-md-6 topheader">
-            <h1>Webinars</h1>
-            <h2>Learn more about Nextcloud</h2>
+            <h1><?php echo $l->t('Webinars');?></h1>
+            <h2><?php echo $l->t('Learn more about Nextcloud');?></h2>
         </div>
     </div>
 </div>
@@ -29,10 +29,23 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('TBD');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('TBD');?></p>
+            <!--<p class="section--paragraph text-center"><?php echo $l->t('TBD');?></p>-->
 		</div>
 	</div>
 </div>
 </section>
 
+<section class="section--webinar">
+<div class="container">
+	<div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice_roadmap_nextcloud.jpg" alt="partner logo" >
+        </div>
+		<div class="col-md-6">
+            <p class="section--paragraph__tittle"><small><?php echo $l->t('November 20, 2019');?></small><br /> <?php echo $l->t('ONLYOFFICE webinar');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud and ONLYOFFICE joined forces to show you the power of integrating real-time collaborative editing into Nextcloud. In this webinar, we cover the most important features of ONLYOFFICE Integration Edition, and the capabilities it brings to your Nextcloud. Bring productivity to your team while keeping your data under control.');?></p>
+            <a class="button button--blue" href="tbd">Watch the webinar</a>
+        </div>
+	</div>
+</div>
+</section>
